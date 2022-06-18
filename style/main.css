@@ -973,6 +973,10 @@ label {
   width: 100%;
 }
 
+.lang-popup-input-name-2, .lang-popup-input-phone-2, .lang-popup-input-name-3, .lang-popup-input-phone-3, .lang-popup-input-name-4, .lang-popup-input-name-5, .lang-popup-input-name-6 {
+  width: 100%;
+}
+
 .tariffs-block {
   position: relative;
   display: block;
@@ -3710,7 +3714,7 @@ select.change-lang {
   .policy-btn input {
     display: none; }
 
-.popup-frame {
+.popup-frame, .popup-frame-basic, .popup-frame-pro, .popup-frame-booking {
   width: 100%;
   height: 100vh;
   padding: 20px;
@@ -3734,7 +3738,7 @@ select.change-lang {
   top: 0;
   z-index: 80; }
 @media only screen and (max-width: 1440px) and (min-width: 1200px) {
- .popup-frame {
+ .popup-frame, .popup-frame-basic, .popup-frame-pro, .popup-frame-booking {
      height: 100%;
  }}
 .popup-default {

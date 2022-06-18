@@ -246,18 +246,53 @@ const langArr = {
 		"ru": 'Заполните данные чтобы перейти к оплате',
 		"ua": 'Заповніть дані, щоб перейти до оплати',
 	},
+	"popup-title-2": {
+		"ru": 'Заполните данные чтобы перейти к оплате',
+		"ua": 'Заповніть дані, щоб перейти до оплати',
+	},
+	"popup-title-3": {
+		"ru": 'Заполните данные чтобы перейти к оплате',
+		"ua": 'Заповніть дані, щоб перейти до оплати',
+	},
+
+	"popup-input-name": {
+		"ru": '<input type="text" name="name" placeholder="Ваше имя" required>',
+		"ua": '<input type="text" name="name" placeholder="Ваше імя" required>',
+	},
+	"popup-input-phone": {
+		"ru": '<input type="text" name="phone" placeholder="Ваш номер телефона" required>',
+		"ua": '<input type="text" name="phone" placeholder="Ваш номер телефону" required>',
+	},
+
+	"popup-input-name-2": {
+		"ru": '<input type="text" name="name" placeholder="Ваше имя" required>',
+		"ua": '<input type="text" name="name" placeholder="Ваше імя" required>',
+	},
+	"popup-input-phone-2": {
+		"ru": '<input type="text" name="phone" placeholder="Ваш номер телефона" required>',
+		"ua": '<input type="text" name="phone" placeholder="Ваш номер телефону" required>',
+	},
+
+	"popup-input-name-3": {
+		"ru": '<input type="text" name="name" placeholder="Ваше имя" required>',
+		"ua": '<input type="text" name="name" placeholder="Ваше імя" required>',
+	},
+	"popup-input-phone-3": {
+		"ru": '<input type="text" name="phone" placeholder="Ваш номер телефона" required>',
+		"ua": '<input type="text" name="phone" placeholder="Ваш номер телефону" required>',
+	},
 
 	"popup-button": {
 		"ru": '<img src="images/button/participation.png" alt="">',
 		"ua": '<img src="images/button/participation1.png" alt="">',
 	},
-	"popup-input-phone": {
-		"ru": '<input type="text" name="name" placeholder="Ваше имя" required>',
-		"ua": '<input type="text" name="name" placeholder="Ваше імя" required>',
+	"popup-button-2": {
+		"ru": '<img src="images/button/participation.png" alt="">',
+		"ua": '<img src="images/button/participation1.png" alt="">',
 	},
-	"popup-input-name": {
-		"ru": '<input type="text" name="phone" placeholder="Ваш номер телефона" required>',
-		"ua": '<input type="text" name="phone" placeholder="Ваш номер телефону" required>',
+	"popup-button-3": {
+		"ru": '<img src="images/button/participation.png" alt="">',
+		"ua": '<img src="images/button/participation1.png" alt="">',
 	},
 	
 	"popup-terms-title-1": {
@@ -268,6 +303,23 @@ const langArr = {
 		"ru": 'публичной оферты',
 		"ua": 'публічної оферти',
 	},
+	"popup-terms-title-3": {
+		"ru": 'Я принимаю условия',
+		"ua": 'Я приймаю умови',
+	},
+	"popup-terms-title-4": {
+		"ru": 'публичной оферты',
+		"ua": 'публічної оферти',
+	},
+	"popup-terms-title-5": {
+		"ru": 'Я принимаю условия',
+		"ua": 'Я приймаю умови',
+	},
+	"popup-terms-title-6": {
+		"ru": 'публичной оферты',
+		"ua": 'публічної оферти',
+	},
+
 	"popup-personal-title": {
 		"ru": 'Я даю согласие на обработку моих персональных данных в соответсвии с',
 		"ua": 'Я даю згоду на обробку моїх персональних даних відповідно',
@@ -276,11 +328,45 @@ const langArr = {
 		"ru": 'политикой конфиденциальности',
 		"ua": 'політикою конфіденційності',
 	},
+	"popup-personal-title-3": {
+		"ru": 'Я даю согласие на обработку моих персональных данных в соответсвии с',
+		"ua": 'Я даю згоду на обробку моїх персональних даних відповідно',
+	},
+	"popup-personal-title-4": {
+		"ru": 'политикой конфиденциальности',
+		"ua": 'політикою конфіденційності',
+	},
+	"popup-personal-title-5": {
+		"ru": 'Я даю согласие на обработку моих персональных данных в соответсвии с',
+		"ua": 'Я даю згоду на обробку моїх персональних даних відповідно',
+	},
+	"popup-personal-title-6": {
+		"ru": 'политикой конфиденциальности',
+		"ua": 'політикою конфіденційності',
+	},
+
 	"popup-agree-title-1": {
 		"ru": 'Я даю согласие на',
 		"ua": 'Я даю згоду на',
 	},
 	"popup-agree-title-2": {
+		"ru": 'получение рассылок с бесплатными, бонусными, акционными и рекламными материалами',
+		"ua": 'отримання розсилок з безкоштовними, бонусними, акційними та рекламними матеріалами',
+	},
+
+	"popup-agree-title-3": {
+		"ru": 'Я даю согласие на',
+		"ua": 'Я даю згоду на',
+	},
+	"popup-agree-title-4": {
+		"ru": 'получение рассылок с бесплатными, бонусными, акционными и рекламными материалами',
+		"ua": 'отримання розсилок з безкоштовними, бонусними, акційними та рекламними матеріалами',
+	},
+	"popup-agree-title-5": {
+		"ru": 'Я даю согласие на',
+		"ua": 'Я даю згоду на',
+	},
+	"popup-agree-title-6": {
 		"ru": 'получение рассылок с бесплатными, бонусными, акционными и рекламными материалами',
 		"ua": 'отримання розсилок з безкоштовними, бонусними, акційними та рекламними матеріалами',
 	},

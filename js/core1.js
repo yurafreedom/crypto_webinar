@@ -71,20 +71,39 @@ $(".submit-form").submit(function(e) {
 
 // Функция закрытия попапов
 let frameClose = () => {
-	$('.popup-frame').fadeOut(); 
+	$('.popup-frame-basic').fadeOut(); 
+	$('.popup-frame-pro').fadeOut(); 
+	$('.popup-frame-booking').fadeOut();
 	$('.popup').fadeOut(); 
 	$('body').removeClass('open-frame');
 }
 
 
 // Код для работы попапа по умолчанию (Не относится к попапам из дизайна)
-$('.js-popup').click(function(e) {
+$('.js-popup-basic').click(function(e) {
 	e.preventDefault();
 	let popupItem = $(this).data('popup');
 	$('body').addClass('open-frame');
 	$('.popup-frame').css("display", "flex").hide().fadeIn();
 	$('.popup[data-popup = ' + popupItem +']').fadeIn();
 });
+
+// $('.js-popup-pro').click(function(e) {
+// 	e.preventDefault();
+// 	let popupItem = $(this).data('popup');
+// 	$('body').addClass('open-frame');
+// 	$('.popup-frame.popup-frame-pro').css("display", "flex").hide().fadeIn();
+// 	$('.popup[data-popup = ' + popupItem +']').fadeIn();
+// });
+
+// $('.js-popup-booking').click(function(e) {
+// 	e.preventDefault();
+// 	let popupItem = $(this).data('popup');
+// 	$('body').addClass('open-frame');
+// 	$('.popup-frame.popup-frame-booking').css("display", "flex").hide().fadeIn();
+// 	$('.popup[data-popup = ' + popupItem +']').fadeIn();
+// });
+
 $('.popup-default-item p').click(function() {
 	$(this).siblings('input').focus();
 });
