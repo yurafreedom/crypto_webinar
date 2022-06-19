@@ -1247,6 +1247,19 @@ label {
   height: auto;
 }
 
+.btn--payment {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+.btn--payment img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .tarrifs-block__card-wrapper .btn {
   margin: 0 auto;
 }
@@ -1386,7 +1399,7 @@ label {
   .tarrifs-block__card-price {
     font-size: 30px;
   }
-  .btn--buy {
+  .btn--buy, .btn--payment {
     max-width: 234px;
   }
   .tarrifs-block__card-wrapper .btn--booking {
@@ -4200,7 +4213,7 @@ select.change-lang {
 .yellow-circle p {
   display: block;
   text-align: center;
-  font-family: 'Museo Sans', sans-serif;
+  font-family: 'MuseoSans', sans-serif;
   font-size: 12px;
   font-weight: 300;
   line-height: 1.6;
